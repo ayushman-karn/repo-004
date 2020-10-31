@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#startup_page {
+  height: 100%;
+  width: 100%;
+  background-image: url(/Bg.png);
+  background-size: cover;
+}
+
+#startup_page a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#startup_page a img {
+  height: 260px;
+}
